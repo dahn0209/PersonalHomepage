@@ -7,7 +7,7 @@ The objective of this project is to design and implement a personal homepage as 
 **Author:** Lili Mei Ye\
 **Email:** meiye.l@northeastern.edu\
 **Class Information:** 
-- **[CS5610 Web Development](https://johnguerra.co/classes/webDevelopment_online_spring_2026/index.html)**
+- [CS5610 Web Development](https://johnguerra.co/classes/webDevelopment_online_spring_2026/index.html)
 - Spring 2026
 - Northeastern University
 
