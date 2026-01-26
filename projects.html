@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Lili Mei Ye">
+    <meta name="description" content="Personal homepage">
+
+    <title>Lili Mei Ye | Projects</title>
+
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Nav bar set up -->
+    <header class="site-header">
+        <nav class="navbar">
+            <ul class="nav-list">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="ai.html">AI Page</a></li>
+                <li>
+                    <button class="theme-toggle" type="button">
+                        🌙
+                    </button>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main content -->
+    <main class="main-content">
+        <section class="project-page">
+            <h1 class="page-title">Projects</h1>
+
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <article class="project-card">
+                    <h2>Data Modeling & ETL</h2>
+                    <div class="project-image">
+                        <img
+                        src="images/project1.jpg"
+                        alt="Screenshot of Project 1">
+                    </div>
+                    <p class="project-description">
+                        A data-focused project centered on designing relational schemas and building an ETL pipeline
+                        to transform raw datasets into a structured database.
+                    </p>
+
+                    <div class="project-tags">
+                        <span class="tag">SQL</span>
+                        <span class="tag">MySQL</span>
+                        <span class="tag">SQLite</span>
+                        <span class="tag">Data Modeling</span>
+                        <span class="tag">ETL</span>
+                    </div>
+
+                </article>
+                
+                <!-- Project 2 -->
+                <article class="project-card">
+                    <h2>SQL Analytics</h2>
+
+                    <div class="project-image">
+                        <img
+                        src="images/project2.jpg"
+                        alt="Screenshot of Project 2">
+                    </div>
+                    <p class="project-description">
+                        A continuation of the data systems project focused on querying, analyzing,
+                        and extracting insights from structured relational data.
+                    </p>
+
+                    <div class="project-tags">
+                        <span class="tag">SQL</span>
+                        <span class="tag">MySQL</span>
+                        <span class="tag">Data Analysis</span>
+                        <span class="tag">Aggregations</span>
+                        <span class="tag">Analytics</span>
+                    </div>
+
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy;Lili Mei Ye</p>
+    </footer>
+    
+    <script type="module" src="js/main.js"></script>
+</body>
+</html>

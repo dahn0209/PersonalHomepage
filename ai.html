@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Lili Mei Ye">
+    <meta name="description" content="Personal homepage">
+
+    <title>Lili Mei Ye | AI Page</title>
+
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Nav bar set up -->
+    <header class="site-header">
+        <nav class="navbar">
+            <ul class="nav-list">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="ai.html">AI Page</a></li>
+                <li>
+                    <button class="theme-toggle" type="button">
+                        🌙
+                    </button>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main content -->
+    <main class="main-content">
+        <section class="ai-page">
+            <h1>AI Portfolio Assistant</h1>
+            <p class="ai-intro">
+                This interactive page simulates an AI assistant that answers questions
+                about my background, projects, and technical interests.
+            </p>
+
+            <div class="ai-container">
+            <!-- Question buttons -->
+                <div class="ai-questions">
+                <button class="ai-btn" data-question="background">
+                    What is your background?
+                </button>
+                <button class="ai-btn" data-question="projects">
+                    What projects have you worked on?
+                </button>
+                <button class="ai-btn" data-question="skills">
+                    What technologies do you use?
+                </button>
+                <button class="ai-btn" data-question="focus">
+                    Why data & systems?
+                </button>
+            </div>
+
+            <!-- AI response area -->
+            <div class="ai-response" id="ai-response">
+                <p class="placeholder">🤖 Ask me a question to get started.</p>
+            </div>
+        </div>
+      </section>
+    </main>
+
+
+    <footer class="fotter">
+        <p>&copy;Lili Mei Ye</p>
+    </footer>
+    
+    <!-- ES6 module -->
+    <script type="module" src="js/ai.js"></script>
+</body>
+</html>
