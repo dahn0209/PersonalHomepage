@@ -4,6 +4,13 @@ body {
     background-color: #eaf4fb;
     color: #1f2933;
     line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+}
+
+html,
+body {
+    height: 100%;
 }
 
 * {
@@ -547,6 +554,3 @@ body.dark-theme .typing-cursor::after {
     margin-left: 4px;
     animation: blink 1s infinite;
 }
-
-
-
