@@ -13,42 +13,48 @@ The objective of this project is to design and implement a personal homepage as 
 
 **Links:** 
 - [Personal Website](https://myinglin2333.github.io/PersonalHomepage/)
-- [GitHub Link](https://github.com/myinglin2333)
-- [Google Slides]()
+- [GitHub Link](https://github.com/myinglin2333/PersonalHomepage#)
+- [Google Slides] (TBD)
 - [Design Document](Design%20Document.pdf)
 
 ## Technologies Used
 - HTML5
 - CSS3
-- JavaScript
+- JavaScript (ES6+ Modules)
 
 ## Features
-- 🌗 **Light/Dark Theme Toogle**
+- 🌗 **Light/Dark Theme Toggle**
     - Implemented using JavaScript
     - User preference persisted with 'localStorage'
 - 🤖 **AI Interactive Page**
     - User interaction with dynamically generated responses
 
 ## Screenshot
-Homepage
+### Homepage
 ![Homepage Screenshot](images/homepage.jpg)
 
-About page
+### About page
 ![About Screenshot](images/AboutMe.jpg)
 
-Projects page
+### Projects page
 ![Projects Screenshot](images/Projects.jpg)
 
-AI page
+### AI page
 ![AI Screenshot](images/aiPage.jpg)
 
-Dark mode
+### Dark mode
 ![Dark Mode Screenshot](images/DarkMode.jpg)
 
-## Instructions
-### Prerequisites
-
-### Installation
+## Instructions to Build and Run
+**To view the site locally:**
+1. Clone the repository:
+```
+git clone https://github.com/myinglin2333/PersonalHomepage.git
+```
+2. Open directly in browser:
+    - Double-click `index.html` in the folder
+    - Or drag `index.html` to your browser window
+    - **Supported browsers:** Chrome, Safari, Firefox
 
 
 
@@ -58,15 +64,13 @@ Generative AI tools were used to assist with ideation and content refinement.
 - **Usage:**
     - Refining written content
     - Assisting with CSS layout debugging
-    - Generated sample content for AI Page - **ai.html** *
+    - Generated sample content for AI Page (`ai.html`) 
 
-*Note: All AI-generated content was reviewed, modified, and integrated manually to ensure quality and compliance with project requirements.
-
-All final code and design decisions were reviewed and implemented by the author.
+*Note: All AI-generated content was reviewed, modified, and integrated manually to ensure quality and compliance with project requirements.*
 
 ## License
-This project is licensd under the **MIT License**.
+This project is licensed under the **MIT License**.
 
-See the [LICENSE]() file for details.
+See the [MIT License](LICENSE) file for details.
 
 
