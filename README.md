@@ -30,21 +30,20 @@ The objective of this project is to design and implement a personal homepage as 
     - User interaction with dynamically generated responses
 
 ## Screenshot
-Home page
-
-
+Homepage
+![Homepage Screenshot](images/homepage.jpg)
 
 About page
-
+![About Screenshot](images/AboutMe.jpg)
 
 Projects page
-
+![Projects Screenshot](images/Projects.jpg)
 
 AI page
-
+![AI Screenshot](images/aiPage.jpg)
 
 Dark mode
-
+![Dark Mode Screenshot](images/DarkMode.jpg)
 
 ## Instructions
 ### Prerequisites
