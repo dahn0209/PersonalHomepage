@@ -16,7 +16,7 @@ The objective of this project is to design and implement a personal homepage as 
 - [GitHub Link](https://github.com/myinglin2333/PersonalHomepage#)
 - [Design Document](Design%20Document.pdf)
 - [Video Demonstration] (TBD)
-- [Google Slides] (TBD)
+- [Google Slides](https://docs.google.com/presentation/d/133mOgi37yqGfuGJyvEy9UKSXzqjlSwXg1uO85L8xPQs/edit?usp=sharing)
 
 ## Technologies Used
 - HTML5
