@@ -23,11 +23,11 @@ The objective of this project is to design and implement a personal homepage as 
 - CSS3
 - JavaScript (ES6+ Modules)
 
-## Features
+## Features  <!-- SUGGESTION:  It would be good to highlight which files used JavaScript-->
 - 🌗 **Light/Dark Theme Toggle**
     - Implemented using JavaScript
     - User preference persisted with 'localStorage'
-- 🤖 **AI Interactive Page**
+- 🤖 **AI Interactive Page**  <!-- SUGGESTION: You mention an AI page, but you don’tstate which file it is that it fulfills this requirement-->
     - User interaction with dynamically generated responses
 
 ## Screenshot
